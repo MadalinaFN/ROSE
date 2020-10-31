@@ -54,7 +54,7 @@ namespace _30._10._2020
 
             int h2, m2;
 
-            h2 = h1 + (m1 / 60) + (x / 60);
+            h2 = h1 + (m1 + x) / 60;
             m2 = (m1 + x) % 60;
 
             Console.WriteLine($"{h2} {m2}");
