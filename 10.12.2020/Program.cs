@@ -12,7 +12,6 @@ namespace _10._12._2020
         /// Dându-se n numere naturale cu toate cifrele nenule, 
         /// să se determine câte dintre ele corespund unui model de deblocare.
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             int n, cifra, pfract, ok = 1, contor = 0;
